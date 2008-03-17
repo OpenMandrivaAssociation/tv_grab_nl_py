@@ -1,14 +1,11 @@
 Summary:	XMLTV compatible grabber for Dutch TV
 Name:		tv_grab_nl_py
 Version:	r60
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL
 Group:		Video
 URL:		http://code.google.com/p/tvgrabnlpy/
 Source0:	http://tvgrabnlpy.googlecode.com/files/%{name}-%{version}
-#Requires:
-#Provides:
-#BuildRequires:
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
@@ -30,11 +27,11 @@ cp %{SOURCE0} %{name}
 %install
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
 install -d %{buildroot}%{_bindir}
-install %{name} %{buildroot}%{_bindir}/
+install %{name} %{buildroot}%{_bindir}/tv_grab_nl
 
 %clean
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%attr(0755,root,root) %{_bindir}/tv_grab_nl_py
+%attr(0755,root,root) %{_bindir}/tv_grab_nl
