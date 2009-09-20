@@ -1,7 +1,7 @@
 Summary:	XMLTV compatible grabber for Dutch TV
 Name:		tv_grab_nl_py
 Version:	r92
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL
 Group:		Video
 URL:		http://code.google.com/p/tvgrabnlpy/
