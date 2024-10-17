@@ -4,7 +4,7 @@ Version:	r92
 Release:	3
 License:	GPL
 Group:		Video
-URL:		http://code.google.com/p/tvgrabnlpy/
+URL:		https://code.google.com/p/tvgrabnlpy/
 Source0:	http://tvgrabnlpy.googlecode.com/files/%{name}-%{version}
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
